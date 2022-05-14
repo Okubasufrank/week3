@@ -1,0 +1,13 @@
+body{
+    background-color: aqua;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.main{
+    background-color: rgb(193, 181, 207);
+    display: flex;
+    justify-content: space-between;
+    /* padding: 40px; */
+}
