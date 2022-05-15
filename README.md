@@ -1,4 +1,4 @@
-# Quick Movers
+# Alumni Tech Club
  ## By Aswani Okubasu Frankline
 ## Screenshot
  ![image](./assets/pics/Screenshot%20from%202022-05-15%2017-13-00.png)
@@ -52,5 +52,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 [Go Back to the top](#Screenshot)
 ## Authors Info
-Linkedin - [Brain Koskei Kimutai](https://www.linkedin.com/in/bore-brian-5655b814b/)
+Linkedin - [Okubasu Frankline](https://www.linkedin.com/in/okubasu-frankline-0051761a0/)
 <!-- [Go Back to the top](#delani-studio) -->
