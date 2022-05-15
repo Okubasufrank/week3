@@ -60,7 +60,7 @@ var o4Collection=document.getElementsByName('o4');
 
     }
 awardMarks(x);
-awardMarks(x);
+awardComments(x);
    return false;
 });
 
