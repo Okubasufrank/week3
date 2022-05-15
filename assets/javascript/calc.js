@@ -1,10 +1,13 @@
 //calculation of the total score
 
-$(document).on('submit', '#4rm', function () {
-    checkAnswers();
-   alert("working");
+$(document).ready(function () {
+
+$(document).on('submit', '#form_', function () {
+   
+   return false;
 });
 
     function quizSubmit(){
         console.log
     }
+})
