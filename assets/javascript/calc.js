@@ -6,6 +6,24 @@ $(document).ready(function () {
         $('#results').text(x);
     }
 
+    function awardComments(marks){
+        var tempMarks=marks/50*100;
+        var commentHolder;
+        if(tempMarks>=80){
+            commentHolder="Exellently scored"
+        }
+        else if(tempMarks>=50 && tempMarks<80){
+            commentHolder="Fairly scored"
+            
+        }
+        else{
+            commentHolder="Poorly  scored"
+
+        }
+
+$('#comments').text()
+    }
+
 $(document).on('submit', '#form_', function () {
     var x=0
 
@@ -41,7 +59,7 @@ var o4Collection=document.getElementsByName('o4');
         }
 
     }
-awardMarks('askdjladjskj');
+awardMarks(x);
    return false;
 });
 
