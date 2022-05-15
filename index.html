@@ -1,21 +1,20 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>week3</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
 
     <div class="nav">
         <div class="me">
-            <h1>ALUMNI Tech Club</h1>
+            <h1><font color="white">ALUMNI</font> Tech Club</h1>
+            <hr color="white">
         </div>
         <div class="you">
             <ul class="we">
-                <li> <a href="#"><button class="bt">Sign Up</button></a></li>
-                <li> <a href="index2.html"><button class="bt">Log in</button></a></li>
+                <li> <a href="#"><button class="btn  btn-warning">Sign Up</button></a></li>
+                <li> <a href="index2.html"><button class="btn  btn-warning">Log in</button></a></li>
             </ul>
         </div>
     </div>
@@ -26,11 +25,137 @@
 
     <div class="page1">
         <h1 class="one">
-            Kakamega  High <br> School <br> <font color="darkorange">TECH QUIZ</font>
+            Kakamega  High School <br> <font color="darkorange">TECH QUIZ</font>
+
+            
         </h1>
     </div>
+    <div class="third">
+        <div class="set1">
+                <h3>Instractions</h3>
+                <hr color="white">
 
-   
-    <div class="bottom"></div>
+                <ul class="ol">
+                    <li> Attempts allowed 'one' </li>
+                    <li> Chooes one answer in the options provided  </li>
+                    <li> Each question has 10 marks </li>
+                    <li> Disqualification if plagiarism detected </li>
+                </ul>
+        </div>
+
+<!------------------------------------------------ -->
+        <div class="set2">
+            <div class="quiz">
+                <h3>Start Quiz</h3>
+            </div>
+            <form class="form"  action="one">
+                <div class="start"> 
+                    <div class="quest1">
+                        <table>
+                            <!-- <form> -->
+                                <p> 1. What is JavaScript?</p>
+                               <ul>
+                                 <input class="answer" type="radio" name="q1" value="1" >
+                                 <label for="q1"> </label>
+                                 <br>
+                                 <input class="answer" type="radio" name="q1" value="1" >
+                                 <label for="q1"> </label>
+                                 <br>
+                                 <input class="answer" type="radio" name="q1" value="1" >
+                                 <label for="q1"> </label>
+                                 <br>
+                                 <input class="answer" type="radio" name="q1" value="1" >
+                                 <label for="q1"> </label>
+                               </ul>
+                            <!-- </form> -->
+                        </table>
+                    </div>
+                 </div>
+                 <div class="start"> 
+                     <div class="quest2">
+                         <table>
+                             <!-- <form> -->
+                                 <p>2. Which is not a looping structure in JavaScript?</p>
+                                <ul>
+                                  <input class="answer" type="radio" name="q1" value="1" >
+                                  <label for="q2"> For</label>
+                                  <br>
+                                  <input class="answer" type="radio" name="q1" value="1" >
+                                  <label for="q2"> While</label>
+                                  <br>
+                                  <input class="answer" type="radio" name="q1" value="1" >
+                                  <label for="q2"> Do-WHile</label>
+                                  <br>
+                                  <input class="answer" type="radio" name="q1" value="1" >
+                                  <label for="q2"> while-Do</label>
+                                </ul>
+                             <!-- </form> -->
+                         </table>
+                     </div>
+                  </div>
+                  <div class="start"> 
+                     <div class="quest3">
+                         <table>
+                             <!-- <form> -->
+                                 <p> 3. Which is not  a meaning of undefined value in JavaScript?</p>
+                                <ul>
+                                  <input class="answer" type="radio" name="q1" value="1" >
+                                  <label for="q3"> Variable used in the code doesn’t exist</label>
+                                  <br>
+                                  <input class="answer" type="radio" name="q1" value="1" >
+                                  <label for="q3"> Variable is not assigned to any value</label>
+                                  <br>
+                                  <input class="answer" type="radio" name="q1" value="1" >
+                                  <label for="q3"> Property and variable are large</label>
+                                  <br>
+                                  <input class="answer" type="radio" name="q1" value="1" >
+                                  <label for="q3">Property does not exist. </label>
+                                </ul>
+                             <!-- </form> -->
+                         </table>
+                     </div>
+                  </div>
+                  <div class="start"> 
+                     <div class="quest4">
+                         <table>
+                             <!-- <form> -->
+                                 <p color="white"> 4. Does JavaScript has concept level scope?</p>
+                                <ul>
+                                  <input class="answer" type="radio" name="q4" value="1" >
+                                  <label for="q4"> No</label>
+                                  <br>
+                                  <input class="answer" type="radio" name="q4" value="1" >
+                                  <label for="q4">Not Sure </label>
+                                  <br>
+                                  <input class="answer" type="radio" name="q4" value="1" >
+                                  <label for="q4"> Yes</label>
+                                  <br>
+                                  <input class="answer" type="radio" name="q4" value="1" >
+                                  <label for="q4"> None</label>
+                                </ul>
+                             <!-- </form> -->
+                         </table>
+                     </div>
+                  </div>
+            </form>
+        </div>
+<!-- ------------------------------------------------>
+
+    <div class="three">
+        <div class="set3">
+                <div class="score">
+                   <h3> Your Score</h3>
+                </div>
+        </div>
+        <div class="submit">
+            <button class="btn btn-success">Submit</button>
+        </div>
+    </div>
+    </div>
+    
+    <!-- <div class="bottom"></div>
 </body>
+
+<script src="./assets/js/jquery/dist/jquery.min.js"></script>
+<script src="./assets/css/bootstrap/dist/js/bootstrap.min.js"></script>
 </html>
