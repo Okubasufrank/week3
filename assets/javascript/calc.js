@@ -21,7 +21,7 @@ $(document).ready(function () {
 
         }
 
-$('#comments').text()
+$('#comments').text(commentHolder)
     }
 
 $(document).on('submit', '#form_', function () {
@@ -59,6 +59,7 @@ var o4Collection=document.getElementsByName('o4');
         }
 
     }
+awardMarks(x);
 awardMarks(x);
    return false;
 });
